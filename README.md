@@ -27,6 +27,10 @@ Customizes the urser's Instagram explore feed by training it with their interest
 - using the droidun python framework we read all the entities on the screen and then we can cleverly promt the agents to run the phone without any interference from the user.
 - then the user can choose which agent to run and let the agent automatically do the desiered task.
 
+- right now the model has to open the reel to judge what reaction to give but we can improve it to judge the reel just based on the instagram reel over and any text wriitten on the reel cover
+- but for that we need an updated version of droidrun which can detect text on images for now it can only detect readable entities like text boxes and iamges but no text as an image
+- further more we can improve its speed by using a more advanced AI and also engineering the prompt using CoT (chain of thinking) concepts to improve its performance and speed
+
 ## 📋 Prerequisites
 
 - Python 3.8 or higher
@@ -183,6 +187,7 @@ For issues related to:
 ---
 
 **Built with ❤️ for the Hackathon**
+
 
 
 
