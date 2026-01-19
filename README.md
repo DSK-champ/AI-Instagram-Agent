@@ -1,6 +1,6 @@
 # Instagram Automation Agent - Hackathon Project
 
-An intelligent automation system for Instagram using Droidrun and Google Gemini AI. This project provides two specialized agents to automate Instagram interactions.
+An intelligent automation system for Instagram using Droidrun and Google Gemini AI. This project provides two specialized agents to automate Instagram interactions saving precious time for the user while they can indulge in other productive aactivities.
 
 ## 🤖 Agents
 
@@ -8,23 +8,24 @@ An intelligent automation system for Instagram using Droidrun and Google Gemini 
 Automatically reacts to unread reels in Instagram Direct Messages. The agent:
 - Opens Instagram and navigates to Direct Messages
 - Identifies unread chats with blue dot indicators
-- Analyzes reel content (caption, comments, on-screen text)
+- Analyzes reel content (caption, comments, any readable entities)
 - Reacts with appropriate emojis based on content sentiment
-- Generates Gen-Z style replies when appropriate
-
-**Reaction Rules:**
-- 😂 for funny content
-- 👍 for informative content
-- 🔥 for motivational content
-- ❗ for scam content
-- No reaction for cringe, offensive, or political content
 
 ### 2. Feed Customiser
-Customizes your Instagram explore feed by training it with your interests. The agent:
+Customizes the urser's Instagram explore feed by training it with their interests. The agent:
 - Takes user preferences as input (e.g., "Educational, Funny, Marvel edits")
 - Searches for relevant content in Instagram Explore
 - Likes 10 continuous posts/reels per interest category
-- Helps train the algorithm to show more of what you like
+- Helps train the algorithm to show more of what they would want to see
+
+## Technologies
+- python
+- droidrun
+   the main component of our project that controlls the actions on the phone
+
+## Basic Working
+- using the droidun python framework we read all the entities on the screen and then we can cleverly promt the agents to run the phone without any interference from the user.
+- then the user can choose which agent to run and let the agent automatically do the desiered task.
 
 ## 📋 Prerequisites
 
@@ -182,5 +183,6 @@ For issues related to:
 ---
 
 **Built with ❤️ for the Hackathon**
+
 
 
