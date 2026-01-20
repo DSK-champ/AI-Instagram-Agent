@@ -2,12 +2,6 @@
 
 An intelligent automation system for Instagram using Droidrun and Google Gemini AI. This project provides two specialized agents to automate Instagram interactions, saving precious time for the user while they can indulge in other productive activities.
 
-## Contributors
-
-<a href="https://github.com/DSK-champ/AI-Instagram-Agent/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=DSK-champ/AI-Instagram-Agent" />
-</a>
-
 
 ## 🤖 Agents
 
@@ -32,10 +26,10 @@ Customizes the user's Instagram explore feed by training it with their interests
 
 ## Basic Working
 - Using the Droidun Python framework, we read all the entities on the screen, and then we can cleverly prompt the agents to run the phone without any interference from the user.
-- then the user can choose which agent to run and let the agent automatically do the desired task.
+- Then the user can choose which agent to run and let the agent automatically do the desired task.
 
 - Right now, the model has to open the reel to judge what reaction to give, but we can improve it to judge the reel just based on the Instagram reel over and any text written on the reel cover
-- but for that, we need an updated version of DroidRun, which can detect text on images. For now, it can only detect readable entities like text boxes and iamges but no text as an image
+- But for that, we need an updated version of DroidRun, which can detect text on images. For now, it can only detect readable entities like text boxes and iamges but no text as an image
 - Furthermore, we can improve its speed by using a more advanced AI and also engineering the prompt using CoT (chain of thinking) concepts to improve its performance and speed
 
 ## 📋 Prerequisites
@@ -194,6 +188,7 @@ For issues related to:
 ---
 
 **Built with ❤️ for the Hackathon**
+
 
 
 
